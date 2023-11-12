@@ -1,38 +1,39 @@
-// 1. The acronym DRY stands for 'don't repeat yourself' and 
-// we should pay attention to avoid repeating code
+// Section 2
 
-// 2. The difference between var let and const is 
-// var and let both create variables that can be reassigned another value
-// const creates variables that cannot be reassigned another value
+const a = 4;
+const b = 53;
+const c = 57;
+const d = 16;
+const e = 'Kelvin';
+const f = false;
 
-const a = 2+2
+console.log(a < b)
+console.log(c>d)
+console.log(a < b < c)
+console.log(a + a < d)
+console.log(e && 'Kevin')
+console.log(48 && '48')
+console.log('Name' && 'Name')
+console.log(f || e)
 
-console.log(a)
 
-const b = 55-2
+// I had some trouble modifying the g variable. 
 
-console.log(b)
+//Section 3
 
-const c = 49+8
+let letters = "A";
+let i = 0;
+// start a while loop that will run as long as q is less than 20
+while (i < 20) {
+	letters += "A";
+	i++;
+}
+//  prints the value of a to the screen/Terminal window
+console.log(letters);
 
-console.log(c)
 
-const d = 32/2
+//Section 4
 
-console.log(d)
-
-const e = 'Kelvin'
-
-console.log(e)
-
-const f = 4===5
-
-console.log(f)
-
-const g = 0
-
-console.log(g)
-
-//1. I used const
-// i chose to use const because it was the 
-// easiest to remember
+for (let i = 0; i <= 999; i++) {
+	console.log(i);
+}
